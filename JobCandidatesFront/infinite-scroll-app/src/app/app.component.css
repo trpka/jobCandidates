@@ -1,0 +1,31 @@
+.search-results{
+    height: 33rem;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data-card{
+    padding: 5px;
+    margin: 8px 0px;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(236, 234, 111);
+  }
+  body{
+    background-color: white;
+  }
+  .example-card {
+    max-width: 400px;
+    border: 0.01px solid #1a44ea;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } 
